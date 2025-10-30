@@ -1,4 +1,6 @@
 package org.scalian.ejerciciopropuesto;
 
-public class CalculadoraDescuento {
+@FunctionalInterface
+public interface CalculadoraDescuento {
+    double descontar(Producto producto);
 }
